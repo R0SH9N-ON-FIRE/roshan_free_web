@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roshan Fire</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div id="splash">
+    <h1>🔥 Roshan Fire</h1>
+    <p>Initializing Jarvis Core...</p>
+  </div>
+
+  <h2>Choose Your Avatar</h2>
+  <div class="avatars">
+    <img src="/static/avatars/sniper_roshan.png" onclick="selectAvatar('Sniper Roshan')">
+    <img src="/static/avatars/shadow_roshan.png" onclick="selectAvatar('Shadow Roshan')">
+    <img src="/static/avatars/iron_roshan.png" onclick="selectAvatar('Iron Roshan')">
+  </div>
+  <p id="selected-avatar">Selected: Sniper Roshan</p>
+
+  <button onclick="shoot()">🎯 Shoot</button>
+  <p id="result"></p>
+
+  <script src="/static/js/script.js"></script>
+</body>
+</html>
